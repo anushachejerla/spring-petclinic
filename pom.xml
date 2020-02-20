@@ -188,7 +188,12 @@
             <artifactId>hsqldb</artifactId>
             <scope>runtime</scope>
         </dependency>
-
+        <!-- Added xml-bind to resolve javax.xml.bind issues -->
+    <dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.2.12</version>
+    </dependency>
         <!-- For MySql only -->
         <!--dependency>
             <groupId>mysql</groupId>
